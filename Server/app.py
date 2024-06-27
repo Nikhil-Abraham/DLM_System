@@ -59,24 +59,29 @@ def remove_station(station_id):
 
     return jsonify({"error": f"Station {station_id} not found"}), 404
 
-# Connect Vehicle Endpoint
 @app.route('/connect_vehicle', methods=['POST'])
 def connect_vehicle():
     data = request.json
     station_id = data.get('station_id')
     vehicle_info = data.get('vehicle')
 
+    # Log the incoming data for debugging
+    print(f"Received station_id: {station_id}")
+    print(f"Received vehicle_info: {vehicle_info}")
+
     for station in stations:
         if station.station_id == station_id:
-            vehicle = Vehicle(**vehicle_info)
             try:
+                vehicle = Vehicle(**vehicle_info)
                 station.connect_vehicle(vehicle)
                 DLM.distribute_load()
                 return jsonify({"message": f"Vehicle connected to {station_id} successfully"})
             except Exception as e:
+                print(f"Error: {str(e)}")
                 return jsonify({"error": str(e)}), 400
 
     return jsonify({"error": f"Station {station_id} not found"}), 404
+
 
 # Disconnect Vehicle Endpoint
 @app.route('/disconnect_vehicle/<station_id>', methods=['POST'])
