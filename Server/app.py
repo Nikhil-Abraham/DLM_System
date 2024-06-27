@@ -32,21 +32,30 @@ def configure_system():
     
     return jsonify({"message": "System configuration updated successfully"})
 
-# Add Station Endpoint
 @app.route('/add_station', methods=['POST'])
 def add_station():
-    if len(stations) >= 5:
-        return jsonify({"error": "Maximum number of stations (5) reached"}), 400
-    print(request.json)
     data = request.json
     station_id = data.get('station_id')
     max_charge_rate = data.get('max_charge_rate')
 
+    # Check if the station with the same ID already exists
+    for station in stations:
+        if station.station_id == station_id:
+            return jsonify({"error": f"Station {station_id} already exists"}), 400
+
+    # Create a new ChargingStation object
     new_station = ChargingStation(station_id, max_charge_rate, Algo1)
+
+    # Add the new station to the stations list
+    if len(stations) >= 5:
+        return jsonify({"error": "Maximum number of stations (5) reached"}), 400
     stations.append(new_station)
+
+    # Add the station to the Dynamic Load Manager
     DLM.add_station(new_station)
 
     return jsonify({"message": f"Station {station_id} added successfully"})
+
 
 # Remove Station Endpoint
 @app.route('/remove_station/<station_id>', methods=['DELETE'])
