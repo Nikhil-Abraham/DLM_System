@@ -41,6 +41,16 @@ def update_building_load():
 
     return jsonify({"message": "Building load updated successfully"})
 
+# Divert Battery Capacity Endpoint
+@app.route('/divert_battery_capacity', methods=['POST'])
+def divert_battery_capacity():
+    data = request.json
+    capacity = data.get('capacity')
+
+    DLM.divert_battery_capacity_to_charging(capacity)
+
+    return jsonify({"message": "Battery capacity diverted successfully"})
+
 @app.route('/add_station', methods=['POST'])
 def add_station():
     data = request.json
