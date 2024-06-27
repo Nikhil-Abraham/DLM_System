@@ -13,8 +13,7 @@ CORS(app)  # Enable CORS for all origins by default
 Algo1 = RankingAlgorithm(0.2, 0.3, 0.5, 1)
 
 # Initialize Dynamic Load Manager
-stations = []
-DLM = DynaminLoadManager(stations, 100, 100, Algo1)
+DLM = DynaminLoadManager([], 100, 100, Algo1)
 
 # Home Endpoint
 @app.route('/')
@@ -39,7 +38,7 @@ def add_station():
     max_charge_rate = data.get('max_charge_rate')
 
     # Check if the station with the same ID already exists
-    for station in stations:
+    for station in DLM.stations:
         if station.station_id == station_id:
             return jsonify({"error": f"Station {station_id} already exists"}), 400
 
@@ -47,9 +46,8 @@ def add_station():
     new_station = ChargingStation(station_id, max_charge_rate, Algo1)
 
     # Add the new station to the stations list
-    if len(stations) >= 5:
+    if len(DLM.stations) >= 5:
         return jsonify({"error": "Maximum number of stations (5) reached"}), 400
-    stations.append(new_station)
 
     # Add the station to the Dynamic Load Manager
     DLM.add_station(new_station)
