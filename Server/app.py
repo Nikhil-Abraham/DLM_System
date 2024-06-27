@@ -80,6 +80,7 @@ def connect_vehicle():
             except Exception as e:
                 print(f"Error: {str(e)}")
                 return jsonify({"error": str(e)}), 400
+    print(vars(DLM))
 
     return jsonify({"error": f"Station {station_id} not found"}), 404
 
