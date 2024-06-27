@@ -27,8 +27,10 @@ class DynaminLoadManager:
         return total_required_capacity
 
     def add_station(self, station):
+        print("Adding Station")
         self.stations.append(station)
         self.distribute_load()
+        print(vars(self))
 
     def remove_station(self, station_id):
         for station in self.stations:
