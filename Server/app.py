@@ -70,6 +70,7 @@ def connect_vehicle():
     print(f"Received vehicle_info: {vehicle_info}")
 
     for station in stations:
+        print(f"Checking station: {station.station_id}")
         if station.station_id == station_id:
             try:
                 vehicle = Vehicle(**vehicle_info)
