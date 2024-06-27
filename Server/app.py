@@ -31,6 +31,16 @@ def configure_system():
     
     return jsonify({"message": "System configuration updated successfully"})
 
+# Update Building Load Endpoint
+@app.route('/update_building_load', methods=['POST'])
+def update_building_load():
+    data = request.json
+    new_load = data.get('new_load')
+
+    DLM.update_building_load(new_load)
+
+    return jsonify({"message": "Building load updated successfully"})
+
 @app.route('/add_station', methods=['POST'])
 def add_station():
     data = request.json
