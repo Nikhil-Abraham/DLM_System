@@ -58,9 +58,8 @@ def add_station():
 # Remove Station Endpoint
 @app.route('/remove_station/<station_id>', methods=['DELETE'])
 def remove_station(station_id):
-    for station in stations:
+    for station in DLM.stations:
         if station.station_id == station_id:
-            stations.remove(station)
             DLM.remove_station(station_id)
             return jsonify({"message": f"Station {station_id} removed successfully"})
 
@@ -76,7 +75,7 @@ def connect_vehicle():
     print(f"Received station_id: {station_id}")
     print(f"Received vehicle_info: {vehicle_info}")
 
-    for station in stations:
+    for station in DLM.stations:
         print(f"Checking station: {station.station_id}")
         if station.station_id == station_id:
             try:
@@ -95,7 +94,7 @@ def connect_vehicle():
 # Disconnect Vehicle Endpoint
 @app.route('/disconnect_vehicle/<station_id>', methods=['POST'])
 def disconnect_vehicle(station_id):
-    for station in stations:
+    for station in DLM.stations:
         if station.station_id == station_id:
             if station.vehicle_is_connected:
                 station.disconnect_vehicle()
