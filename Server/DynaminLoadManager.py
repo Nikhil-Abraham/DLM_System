@@ -131,6 +131,7 @@ class DynaminLoadManager:
                     "charge_rate": station.charge_rate,
                     "charger_priority": station.charger_priority,
                     "vehicle_soc": station.vehicle.soc,
+                    "vehicle_battery_capacity": station.vehicle.battery_capacity,
                     "vehicle_max_charging_rate": station.vehicle.max_charging_rate,
                     "vehicle_scheduled_time": (station.vehicle.scheduled_time - datetime.now()).total_seconds()/3600,
                     "vehicle_desired_soc": station.vehicle.desired_soc,
