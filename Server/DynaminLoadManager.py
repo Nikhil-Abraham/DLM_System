@@ -107,6 +107,8 @@ class DynaminLoadManager:
 
 
     def get_load_distribution(self):
+        print("Load Distribution")
+        print(self)
         distribution = {
             "System": {
                 "internal_capacity": self.internal_capacity,
