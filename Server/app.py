@@ -125,6 +125,22 @@ def disconnect_vehicle(station_id):
 
     return jsonify({"error": f"Station {station_id} not found"}), 404
 
+# Update Vehicle SOC
+@app.route('/update_vehicle_soc', methods=['POST'])
+def update_vehicle_soc():
+    data = request.json
+    station_id = data.get('station_id')
+    new_soc = data.get('new_soc')
+
+    for station in DLM.stations:
+        if station.station_id == station_id:
+            if station.vehicle_is_connected:
+                DLM.update_vehicle_soc(station_id, new_soc)
+                return jsonify({"message": f"Vehicle SOC updated successfully"})
+            else:
+                return jsonify({"error": f"No vehicle connected to {station_id}"}), 400
+    
+
 # Get Load Distribution Endpoint
 @app.route('/load_distribution', methods=['GET'])
 def load_distribution():

@@ -9,8 +9,8 @@ import time
 Algo1 = RankingAlgorithm(0.2, 0.3, 0.5, 1)
 
 
-EV1 = Vehicle(soc=70, max_charging_rate=25, battery_capacity=100, desired_soc=80, scheduled_time=datetime.now() + timedelta(hours=2))
-EV2 = Vehicle(soc=50, max_charging_rate=35, battery_capacity=100, desired_soc=60, scheduled_time=datetime.now() + timedelta(hours=3))
+EV1 = Vehicle(soc=70, max_charging_rate=105, battery_capacity=100, desired_soc=80, scheduled_time=datetime.now() + timedelta(hours=2))
+EV2 = Vehicle(soc=50, max_charging_rate=105, battery_capacity=100, desired_soc=60, scheduled_time=datetime.now() + timedelta(hours=3))
 EV3 = Vehicle(soc=90, max_charging_rate=35, battery_capacity=100, desired_soc=100, scheduled_time=datetime.now() + timedelta(hours=1))
 EV4 = Vehicle(soc=70, max_charging_rate=25, battery_capacity=100)
 EV5 = Vehicle(soc=20, max_charging_rate=25, battery_capacity=100)
@@ -81,12 +81,13 @@ print('\n------------------------------------\n')
 #time.sleep(6)
 
 print('Diverting 20 capacity to charging')
-DLM.divert_battery_capacity_to_charging(20)
+DLM.divert_battery_capacity_to_charging(200)
 DLM.get_load_distribution()
 print('\n------------------------------------\n')
 
 print('EV4 is disconnecting from S4')
 S4.disconnect_vehicle()
+DLM.update_building_load(1500)
 DLM.distribute_load()
 DLM.get_load_distribution()
 print('\n------------------------------------\n')
@@ -96,6 +97,7 @@ print('\n------------------------------------\n')
 print('EV3 is disconnecting from S3')
 S3.disconnect_vehicle()
 DLM.distribute_load()
+DLM.update_vehicle_soc('S1', 80)
 DLM.get_load_distribution()
 print('\n------------------------------------\n')
 

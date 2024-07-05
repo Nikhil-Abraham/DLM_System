@@ -25,3 +25,7 @@ class Vehicle:
             return scheduled_time
         else:
             raise TypeError("Scheduled time must be a string or datetime object.")
+    
+    def update_soc(self, new_soc):
+        self.soc = new_soc / 100
+        

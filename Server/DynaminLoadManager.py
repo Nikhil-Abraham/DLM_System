@@ -58,6 +58,17 @@ class DynaminLoadManager:
     
     def update_available_capacity(self):
         self.available_capacity = self.internal_capacity + self.battery_capacity_diverted - self.building_load
+    
+    def update_vehicle_soc(self, station_id, new_soc):
+        for station in self.stations:
+            if station.station_id == station_id:
+                station.vehicle.soc = new_soc
+                station.estimated_charging_time = (station.vehicle.desired_soc*station.vehicle.battery_capacity - station.vehicle.soc*station.vehicle.battery_capacity)/station.max_feasible_rate
+                if station.estimated_charging_time < 0:
+                    station.estimated_charging_time = 0
+                self.distribute_load()
+                return
+        return
 
     
     def distribute_load(self):

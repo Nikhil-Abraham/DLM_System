@@ -1,0 +1,1550 @@
+[
+	{
+		"System": {
+			"available_capacity": 3000,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 2000,
+			"battery_capacity_diverted": 0,
+			"building_load": 0,
+			"capacity_utilization": 0,
+			"internal_capacity": 3000
+		},
+		"stations": []
+	},
+	{
+		"System": {
+			"available_capacity": 3000,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 2000,
+			"battery_capacity_diverted": 0,
+			"building_load": 0,
+			"capacity_utilization": 90,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 90,
+				"charger_priority": 0.32002314707652424,
+				"estimated_charging_time": 2.0,
+				"max_feasible_rate": 90,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.8,
+				"vehicle_max_charging_rate": 90,
+				"vehicle_scheduled_time": 5.999010713611112,
+				"vehicle_soc": 0.2
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 2900,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1900,
+			"battery_capacity_diverted": 100,
+			"building_load": 200,
+			"capacity_utilization": 185,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 90,
+				"charger_priority": 0.3200233833243731,
+				"estimated_charging_time": 2.0,
+				"max_feasible_rate": 90,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.8,
+				"vehicle_max_charging_rate": 90,
+				"vehicle_scheduled_time": 5.933334168611111,
+				"vehicle_soc": 0.2
+			},
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.40267020590005365,
+				"estimated_charging_time": 1.2894736842105263,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.993956546111112,
+				"vehicle_soc": 0.5
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 2400,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1800,
+			"battery_capacity_diverted": 200,
+			"building_load": 800,
+			"capacity_utilization": 255,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 90,
+				"charger_priority": 0.32002351422223885,
+				"estimated_charging_time": 2.0,
+				"max_feasible_rate": 90,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.8,
+				"vehicle_max_charging_rate": 90,
+				"vehicle_scheduled_time": 5.90544182,
+				"vehicle_soc": 0.2
+			},
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.4026703341590362,
+				"estimated_charging_time": 1.2894736842105263,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.9660641975,
+				"vehicle_soc": 0.5
+			},
+			{
+				"charge_rate": 70,
+				"charger_priority": 0.3433565116657761,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 70,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 70,
+				"vehicle_scheduled_time": 5.991037433333333,
+				"vehicle_soc": 0.6
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 1900,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1800,
+			"battery_capacity_diverted": 200,
+			"building_load": 1300,
+			"capacity_utilization": 455,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 90,
+				"charger_priority": 0.34502375816300435,
+				"estimated_charging_time": 1.6666666666666667,
+				"max_feasible_rate": 90,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.8,
+				"vehicle_max_charging_rate": 90,
+				"vehicle_scheduled_time": 5.844954752222222,
+				"vehicle_soc": 0.3
+			},
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.4261999849079895,
+				"estimated_charging_time": 0.9210526315789473,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.905577129722222,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 70,
+				"charger_priority": 0.3433567486520359,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 70,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 70,
+				"vehicle_scheduled_time": 5.930550365555556,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.41891210853076916,
+				"estimated_charging_time": 1.75,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.980536701111111,
+				"vehicle_soc": 0.4
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.38946761052877144,
+				"estimated_charging_time": 2.1,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.994365360555555,
+				"vehicle_soc": 0.2
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 1500,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1900,
+			"battery_capacity_diverted": 100,
+			"building_load": 1600,
+			"capacity_utilization": 455,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 90,
+				"charger_priority": 0.3950238741075622,
+				"estimated_charging_time": 1.0,
+				"max_feasible_rate": 90,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.8,
+				"vehicle_max_charging_rate": 90,
+				"vehicle_scheduled_time": 5.816624194444445,
+				"vehicle_soc": 0.5
+			},
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.43796480436141827,
+				"estimated_charging_time": 0.7368421052631579,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.877246571944444,
+				"vehicle_soc": 0.65
+			},
+			{
+				"charge_rate": 70,
+				"charger_priority": 0.3433568612665108,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 70,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 70,
+				"vehicle_scheduled_time": 5.902219807777778,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.452245552599801,
+				"estimated_charging_time": 1.2249999999999996,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.952206143333333,
+				"vehicle_soc": 0.55
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.38946772075300895,
+				"estimated_charging_time": 2.1,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.966034802777777,
+				"vehicle_soc": 0.2
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 1300,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1900,
+			"battery_capacity_diverted": 100,
+			"building_load": 1800,
+			"capacity_utilization": 455,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 90,
+				"charger_priority": 0.3950239888896847,
+				"estimated_charging_time": 1.0,
+				"max_feasible_rate": 90,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.8,
+				"vehicle_max_charging_rate": 90,
+				"vehicle_scheduled_time": 5.788285685,
+				"vehicle_soc": 0.5
+			},
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.43796491678264937,
+				"estimated_charging_time": 0.7368421052631579,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.8489080625000005,
+				"vehicle_soc": 0.65
+			},
+			{
+				"charge_rate": 70,
+				"charger_priority": 0.3433569727363155,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 70,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 70,
+				"vehicle_scheduled_time": 5.873881298333333,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.4522456622011608,
+				"estimated_charging_time": 1.2249999999999996,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.9238676338888885,
+				"vehicle_soc": 0.55
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.4339122742902038,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.937696293333333,
+				"vehicle_soc": 0.4
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 900,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1900,
+			"battery_capacity_diverted": 100,
+			"building_load": 2200,
+			"capacity_utilization": 455,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 90,
+				"charger_priority": 0.4450247560462398,
+				"estimated_charging_time": 0.3333333333333333,
+				"max_feasible_rate": 90,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.8,
+				"vehicle_max_charging_rate": 90,
+				"vehicle_scheduled_time": 5.6089436105555555,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.4379656678738256,
+				"estimated_charging_time": 0.7368421052631579,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.669565988055556,
+				"vehicle_soc": 0.65
+			},
+			{
+				"charge_rate": 70,
+				"charger_priority": 0.34335771735584514,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 70,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 70,
+				"vehicle_scheduled_time": 5.6945392238888894,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.452246394115843,
+				"estimated_charging_time": 1.2249999999999996,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.744525559444444,
+				"vehicle_soc": 0.55
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.43391300274751315,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.758354218888889,
+				"vehicle_soc": 0.4
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 600,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1900,
+			"battery_capacity_diverted": 100,
+			"building_load": 2500,
+			"capacity_utilization": 485,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.4379657755478967,
+				"estimated_charging_time": 0.7368421052631579,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.645300804722222,
+				"vehicle_soc": 0.65
+			},
+			{
+				"charge_rate": 70,
+				"charger_priority": 0.34335782408575094,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 70,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 70,
+				"vehicle_scheduled_time": 5.670274040555555,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.45224649899283836,
+				"estimated_charging_time": 1.2249999999999996,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.720260376111112,
+				"vehicle_soc": 0.55
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.43391310712042136,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.734089035555556,
+				"vehicle_soc": 0.4
+			},
+			{
+				"charge_rate": 120,
+				"charger_priority": 0.49307870263207976,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.9994770175,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 400,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1900,
+			"battery_capacity_diverted": 100,
+			"building_load": 2700,
+			"capacity_utilization": 400.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 79.85172104122213,
+				"charger_priority": 0.4379658162296332,
+				"estimated_charging_time": 0.7368421052631579,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.635874182777777,
+				"vehicle_soc": 0.65
+			},
+			{
+				"charge_rate": 62.602411855304894,
+				"charger_priority": 0.3433578644096892,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 70,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 70,
+				"vehicle_scheduled_time": 5.660847418611111,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 88.53291065458905,
+				"charger_priority": 0.4855798719479777,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.710833754166667,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 79.11282171017677,
+				"charger_priority": 0.4339131465512208,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.724662413611111,
+				"vehicle_soc": 0.4
+			},
+			{
+				"charge_rate": 89.90013473870718,
+				"charger_priority": 0.49307873864942925,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.9900503955555555,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 450,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1850,
+			"battery_capacity_diverted": 150,
+			"building_load": 2700,
+			"capacity_utilization": 450.00000000000006,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 88.04946027199804,
+				"charger_priority": 0.4379658642794399,
+				"estimated_charging_time": 0.7368421052631579,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.624622254444444,
+				"vehicle_soc": 0.65
+			},
+			{
+				"charge_rate": 69.02930410944684,
+				"charger_priority": 0.34335791203613847,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 70,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 70,
+				"vehicle_scheduled_time": 5.649595490277777,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 97.62187707172909,
+				"charger_priority": 0.4855799187436729,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.6995818258333335,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 96.16989642312679,
+				"charger_priority": 0.47835763756537064,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.713410485277778,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 99.12946212369927,
+				"charger_priority": 0.4930787811810031,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.978798467222222,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 450,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1850,
+			"battery_capacity_diverted": 150,
+			"building_load": 2700,
+			"capacity_utilization": 450.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 93.66809701350691,
+				"charger_priority": 0.4732600553550274,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.608147350833333,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 67.95775106773317,
+				"charger_priority": 0.3433579848161201,
+				"estimated_charging_time": 1.5,
+				"max_feasible_rate": 70,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 70,
+				"vehicle_scheduled_time": 5.633120586666666,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 96.10647068139903,
+				"charger_priority": 0.4855799902510728,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.683106922222223,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 94.67702959750015,
+				"charger_priority": 0.47835770872660466,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.696935581666667,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 97.59065163986074,
+				"charger_priority": 0.49307884615776615,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.96232356361111,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 450,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1850,
+			"battery_capacity_diverted": 150,
+			"building_load": 2700,
+			"capacity_utilization": 450.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 90.33513024030331,
+				"charger_priority": 0.47326033600322703,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.5452119586111115,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 81.55187144165318,
+				"charger_priority": 0.4272453692987465,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.9992265188888885,
+				"vehicle_soc": 0.1
+			},
+			{
+				"charge_rate": 92.68673710604894,
+				"charger_priority": 0.48558026350507205,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.6201715299999995,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 91.30816000408254,
+				"charger_priority": 0.47835798064847534,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.6340001894444445,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 94.11810120791206,
+				"charger_priority": 0.4930790942920395,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.899388171388889,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 500,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1800,
+			"battery_capacity_diverted": 200,
+			"building_load": 2700,
+			"capacity_utilization": 500.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.47326038629480244,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.534281711666667,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 95.51876178229998,
+				"charger_priority": 0.42724541226104334,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.988296271944445,
+				"vehicle_soc": 0.1
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.485580312462993,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.609241283055555,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.47835802936616456,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.6230699425,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 109.48123821770005,
+				"charger_priority": 0.49307913872191844,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.888457924444444,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 220,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2800,
+			"capacity_utilization": 220.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 44.163841997017286,
+				"charger_priority": 0.47326043260581724,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.523882495833334,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 39.86980387066606,
+				"charger_priority": 0.42724545181134505,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.977897056111112,
+				"vehicle_soc": 0.1
+			},
+			{
+				"charge_rate": 45.313516004986184,
+				"charger_priority": 0.4855803575435926,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.598842067222222,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 44.63954506349498,
+				"charger_priority": 0.478358074225139,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.612670726666666,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 46.01329306383552,
+				"charger_priority": 0.49307917962571646,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.878058708611111,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 220,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2800,
+			"capacity_utilization": 220.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 44.163841997017286,
+				"charger_priority": 0.47326043260581724,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.523882495833334,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 39.86980387066606,
+				"charger_priority": 0.42724545181134505,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.977897056111112,
+				"vehicle_soc": 0.1
+			},
+			{
+				"charge_rate": 45.313516004986184,
+				"charger_priority": 0.4855803575435926,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.598842067222222,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 44.63954506349498,
+				"charger_priority": 0.478358074225139,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.612670726666666,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 46.01329306383552,
+				"charger_priority": 0.49307917962571646,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.878058708611111,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 220,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2800,
+			"capacity_utilization": 220.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 44.163841997017286,
+				"charger_priority": 0.47326043260581724,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.523882495833334,
+				"vehicle_soc": 0.81
+			},
+			{
+				"charge_rate": 39.86980387066606,
+				"charger_priority": 0.42724545181134505,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.977897056111112,
+				"vehicle_soc": 0.2
+			},
+			{
+				"charge_rate": 45.313516004986184,
+				"charger_priority": 0.4855803575435926,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.598842067222222,
+				"vehicle_soc": 0.75
+			},
+			{
+				"charge_rate": 44.63954506349498,
+				"charger_priority": 0.478358074225139,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.612670726666666,
+				"vehicle_soc": 0.65
+			},
+			{
+				"charge_rate": 46.01329306383552,
+				"charger_priority": 0.49307917962571646,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.878058708611111,
+				"vehicle_soc": 0.8
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 220,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2800,
+			"capacity_utilization": 220.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 44.163841997017286,
+				"charger_priority": 0.47326043260581724,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.523882495833334,
+				"vehicle_soc": 0.82
+			},
+			{
+				"charge_rate": 39.86980387066606,
+				"charger_priority": 0.42724545181134505,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.977897056111112,
+				"vehicle_soc": 0.3
+			},
+			{
+				"charge_rate": 45.313516004986184,
+				"charger_priority": 0.4855803575435926,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.598842067222222,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 44.63954506349498,
+				"charger_priority": 0.478358074225139,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.612670726666666,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 46.01329306383552,
+				"charger_priority": 0.49307917962571646,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.878058708611111,
+				"vehicle_soc": 0.9
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 220,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2800,
+			"capacity_utilization": 220.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 44.163841997017286,
+				"charger_priority": 0.47326043260581724,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.523882495833334,
+				"vehicle_soc": 0.83
+			},
+			{
+				"charge_rate": 39.86980387066606,
+				"charger_priority": 0.42724545181134505,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.977897056111112,
+				"vehicle_soc": 0.4
+			},
+			{
+				"charge_rate": 45.313516004986184,
+				"charger_priority": 0.4855803575435926,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.598842067222222,
+				"vehicle_soc": 0.85
+			},
+			{
+				"charge_rate": 44.63954506349498,
+				"charger_priority": 0.478358074225139,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.612670726666666,
+				"vehicle_soc": 0.75
+			},
+			{
+				"charge_rate": 46.01329306383552,
+				"charger_priority": 0.49307917962571646,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.878058708611111,
+				"vehicle_soc": 0.15
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 220,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2800,
+			"capacity_utilization": 220.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 44.163841997017286,
+				"charger_priority": 0.47326043260581724,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.523882495833334,
+				"vehicle_soc": 0.84
+			},
+			{
+				"charge_rate": 39.86980387066606,
+				"charger_priority": 0.42724545181134505,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.977897056111112,
+				"vehicle_soc": 0.5
+			},
+			{
+				"charge_rate": 45.313516004986184,
+				"charger_priority": 0.4855803575435926,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.598842067222222,
+				"vehicle_soc": 0.9
+			},
+			{
+				"charge_rate": 44.63954506349498,
+				"charger_priority": 0.478358074225139,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.612670726666666,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 46.01329306383552,
+				"charger_priority": 0.49307917962571646,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.878058708611111,
+				"vehicle_soc": 0.2
+			}
+		]
+	},
+	{
+		"System": {
+			"available_capacity": 220,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2800,
+			"capacity_utilization": 220.0,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 44.163841997017286,
+				"charger_priority": 0.47326043260581724,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.523882495833334,
+				"vehicle_soc": 0.85
+			},
+			{
+				"charge_rate": 39.86980387066606,
+				"charger_priority": 0.42724545181134505,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.977897056111112,
+				"vehicle_soc": 0.6
+			},
+			{
+				"charge_rate": 45.313516004986184,
+				"charger_priority": 0.4855803575435926,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.598842067222222,
+				"vehicle_soc": 0.2
+			},
+			{
+				"charge_rate": 44.63954506349498,
+				"charger_priority": 0.478358074225139,
+				"estimated_charging_time": 0.9,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.612670726666666,
+				"vehicle_soc": 0.85
+			},
+			{
+				"charge_rate": 46.01329306383552,
+				"charger_priority": 0.49307917962571646,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.878058708611111,
+				"vehicle_soc": 0.3
+			}
+		]
+	},
+    {
+		"System": {
+			"available_capacity": 620,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2400,
+			"capacity_utilization": 515,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.4732617827544752,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.242310398611111,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.4272466000144693,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.696324958888889,
+				"vehicle_soc": 0.1
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.4855816708442106,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.31726997,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.522803825337466,
+				"estimated_charging_time": 0.3,
+				"max_feasible_rate": 100,
+				"station_id": "S5",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 115,
+				"vehicle_scheduled_time": 5.331098629444444,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 120,
+				"charger_priority": 0.49308036815478834,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.596486611388889,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+    {
+		"System": {
+			"available_capacity": 620,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2400,
+			"capacity_utilization": 415,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.4732618103401175,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.236820806666667,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.42724662337682245,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.6908353669444445,
+				"vehicle_soc": 0.1
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.4855816976573193,
+				"estimated_charging_time": 0.7000000000000003,
+				"max_feasible_rate": 100,
+				"station_id": "S4",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 110,
+				"vehicle_scheduled_time": 5.311780378055556,
+				"vehicle_soc": 0.7
+			},
+			{
+				"charge_rate": 120,
+				"charger_priority": 0.49308039235837836,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.590997019444445,
+				"vehicle_soc": 0.7
+			}
+		]
+	},
+    {
+		"System": {
+			"available_capacity": 620,
+			"battery_capacity": 2000,
+			"battery_capacity_available": 1980,
+			"battery_capacity_diverted": 20,
+			"building_load": 2400,
+			"capacity_utilization": 315,
+			"internal_capacity": 3000
+		},
+		"stations": [
+			{
+				"charge_rate": 95,
+				"charger_priority": 0.47326183993134535,
+				"estimated_charging_time": 0.18421052631578946,
+				"max_feasible_rate": 95,
+				"station_id": "S2",
+				"vehicle_battery_capacity": 350,
+				"vehicle_desired_soc": 0.85,
+				"vehicle_max_charging_rate": 95,
+				"vehicle_scheduled_time": 5.230652612222222,
+				"vehicle_soc": 0.8
+			},
+			{
+				"charge_rate": 100,
+				"charger_priority": 0.4272466484334014,
+				"estimated_charging_time": 2.4,
+				"max_feasible_rate": 100,
+				"station_id": "S3",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.6846671725,
+				"vehicle_soc": 0.1
+			},
+			{
+				"charge_rate": 120,
+				"charger_priority": 0.4930804183181198,
+				"estimated_charging_time": 0.5,
+				"max_feasible_rate": 120,
+				"station_id": "S1",
+				"vehicle_battery_capacity": 300,
+				"vehicle_desired_soc": 0.9,
+				"vehicle_max_charging_rate": 135,
+				"vehicle_scheduled_time": 5.584828825,
+				"vehicle_soc": 0.7
+			}
+		]
+	}
+
+]
