@@ -135,19 +135,22 @@ class DynaminLoadManager:
         }
         stations = []
         for station in self.stations:
-            if station.vehicle_is_connected:
-                stations.append({
-                    "station_id": station.station_id,
-                    "max_feasible_rate": station.max_feasible_rate,
-                    "charge_rate": station.charge_rate,
-                    "charger_priority": station.charger_priority,
+            stations.append({
+                "station_id": station.station_id,
+                "max_feasible_rate": station.max_feasible_rate,
+                "charge_rate": station.charge_rate,
+                "charger_priority": station.charger_priority,
+                # if vehicle is connected, include vehicle stats else leave vehicle object empty
+                "vehicle": {
                     "vehicle_soc": station.vehicle.soc,
                     "vehicle_battery_capacity": station.vehicle.battery_capacity,
                     "vehicle_max_charging_rate": station.vehicle.max_charging_rate,
                     "vehicle_scheduled_time": (station.vehicle.scheduled_time - datetime.now()).total_seconds()/3600,
                     "vehicle_desired_soc": station.vehicle.desired_soc,
                     "estimated_charging_time": station.estimated_charging_time
-                })
+                    } if station.vehicle_is_connected else {},
+
+            })
         distribution["stations"] = stations
         print(json.dumps(distribution, indent=2))
         return distribution
