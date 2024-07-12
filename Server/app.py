@@ -66,7 +66,7 @@ def add_station():
     new_station = ChargingStation(station_id, max_charge_rate, Algo1)
 
     # Add the new station to the stations list
-    if len(DLM.stations) >= 5:
+    if len(DLM.stations) >= 10:
         return jsonify({"error": "Maximum number of stations (5) reached"}), 400
 
     # Add the station to the Dynamic Load Manager
